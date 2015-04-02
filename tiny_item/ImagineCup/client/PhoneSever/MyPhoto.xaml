@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneSever.MyPhoto"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btn1" Grid.Row="0" Grid.Column="0" BorderBrush="Purple" BorderThickness="10"
+                    Height="200" Width="200" Margin="20,0,0,0" Click="btn1_Click">
+                <Button.Content>
+                    <Image Source="photo/photo1.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+            <Button Name="btn2" Grid.Row="0" Grid.Column="1" BorderBrush="Gray" BorderThickness="10"
+                    Height="200" Width="200" Margin="0,0,20,0" Click="btn2_Click">
+                <Button.Content>
+                    <Image Source="photo/photo2.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+            <Button Name="btn3" Grid.Row="1" Grid.Column="0" BorderBrush="Gray" BorderThickness="10"
+                    Height="200" Width="200" Margin="20,0,0,0" Click="btn3_Click">
+                <Button.Content>
+                    <Image Source="photo/photo3.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+            <Button Name="btn4" Grid.Row="1" Grid.Column="1" BorderBrush="Gray" BorderThickness="10"
+                    Height="200" Width="200" Margin="0,0,20,0" Click="btn4_Click">
+                <Button.Content>
+                    <Image Source="photo/photo4.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+            <Button Name="btn5" Grid.Row="2" Grid.Column="0" BorderBrush="Gray" BorderThickness="10"
+                    Height="200" Width="200" Margin="20,0,0,0" Click="btn5_Click">
+                <Button.Content>
+                    <Image Source="photo/photo5.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+            <Button Name="btn6" Grid.Row="2" Grid.Column="1" BorderBrush="Gray" BorderThickness="10"
+                    Height="200" Width="200" Margin="0,0,20,0" Click="btn6_Click">
+                <Button.Content>
+                    <Image Source="photo/photo6.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+            <Button Name="btn7" Grid.Row="3" Grid.Column="0" BorderBrush="Gray" BorderThickness="10"
+                    Height="200" Width="200" Margin="20,0,0,0" Click="btn7_Click">
+                <Button.Content>
+                    <Image Source="photo/photo7.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+            <Button Name="btn8" Grid.Row="3" Grid.Column="1" BorderBrush="Gray" BorderThickness="10"
+                    Height="200" Width="200" Margin="0,0,20,0" Click="btn8_Click">
+                <Button.Content>
+                    <Image Source="photo/photo8.jpg" Margin="-10"/>
+                </Button.Content>
+            </Button>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

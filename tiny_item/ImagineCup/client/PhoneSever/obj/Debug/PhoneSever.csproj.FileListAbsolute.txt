@@ -1,0 +1,98 @@
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\Assets\ApplicationIcon.png
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\PhoneSever.dll
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\PhoneSever.pdb
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\AppManifest.xaml
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\Bin\Debug\PhoneSever_Debug_AnyCPU.xap
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\App.g.cs
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\MainPage.g.cs
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\PhoneSever.g.resources
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\PhoneSever.Resources.AppResources.resources
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\PhoneSever.csproj.GenerateResource.Cache
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\PhoneSever.dll
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\PhoneSever.pdb
+E:\我的文件\学习文件\WP8\程序\第二章\PhoneSever\PhoneSever\obj\Debug\XapCacheFile.xml
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\Assets\ApplicationIcon.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\PhoneSever.dll
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\PhoneSever.pdb
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\AppManifest.xaml
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\Bin\Debug\PhoneSever_Debug_AnyCPU.xap
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\App.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\MainPage.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\PhoneSever.g.resources
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\PhoneSever.Resources.AppResources.resources
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\PhoneSever.csproj.GenerateResource.Cache
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\PhoneSever.dll
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\PhoneSever.pdb
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\XapCacheFile.xml
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\CreateEvent.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\RegistLogin.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\SearchUser.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\StartEvent.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端\PhoneSever\obj\Debug\SearchEvent.g.cs
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\Assets\ApplicationIcon.png
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\PhoneSever.dll
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\PhoneSever.pdb
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\AppManifest.xaml
+D:\资料\image cup\客户端\PhoneSever\Bin\Debug\PhoneSever_Debug_AnyCPU.xap
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\App.g.cs
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\CreateEvent.g.cs
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\RegistLogin.g.cs
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\SearchUser.g.cs
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\StartEvent.g.cs
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\MainPage.g.cs
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\SearchEvent.g.cs
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\PhoneSever.g.resources
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\PhoneSever.Resources.AppResources.resources
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\PhoneSever.csproj.GenerateResource.Cache
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\PhoneSever.dll
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\PhoneSever.pdb
+D:\资料\image cup\客户端\PhoneSever\obj\Debug\XapCacheFile.xml
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\App.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\ChoosePosition.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\CreateEvent.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\EventInfomation.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\EventNearby.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\RegistLogin.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\SearchUser.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\Settings.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\StartEvent.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\MainPage.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\SearchEvent.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\UserInfomation.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\UserNearby.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\PhoneSever.g.resources
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\PhoneSever.Resources.AppResources.resources
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\PhoneSever.csproj.GenerateResource.Cache
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Assets\ApplicationIcon.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\PhoneSever.dll
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\PhoneSever.pdb
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\AppManifest.xaml
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\PhoneSever_Debug_AnyCPU.xap
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\PhoneSever.dll
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\PhoneSever.pdb
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\XapCacheFile.xml
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\MyPhoto.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\ChooseStartEvent.g.cs
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\我的文件\学习文件\WP8\程序\微软创新杯\客户端_v1\PhoneSever\obj\Debug\PhoneSever.csprojResolveAssemblyReference.cache

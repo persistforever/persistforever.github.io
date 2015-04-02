@@ -1,0 +1,32 @@
+
+%     grade_vector = [0.3 1 1 1] ;
+%     pre_rate = GiveGrade(training_data,user_id,brand_id,1,30,grade_vector) ;
+%     post_rate = GiveGrade(training_data,user_id,brand_id,31,60,grade_vector) ;
+%     b2bsim1 = CalSimilarity(pre_rate, post_rate) ;
+%     pre_rate = GiveGrade(training_data,user_id,brand_id,1,60,grade_vector) ;
+%     post_rate = GiveGrade(training_data,user_id,brand_id,61,90,grade_vector) ;
+%     b2bsim2 = CalSimilarity(pre_rate, post_rate) ;
+%     b2bsim3 = b2bsim1*0.4+b2bsim2*0.6 ; % 计算用户用户相似度
+%     pre_rate = GiveGrade(data,user_id,brand_id,1,90,grade_vector) ;
+%     post_rate = GiveGrade(data,user_id,brand_id,91,120,grade_vector) ;
+%     u2usim4 = CalSimilarity(pre_rate, post_rate) ;
+%     u2usim5 = u2usim3*0.4+u2usim4*0.6 ; % 计算用户用户相似度
+    rate = rateMatrix(data, brand_id, user_id,4,[1 9 3 5]) ;
+    [rate_lisan rate_temp] = DiscretRate(rate) ;
+    [u1 s v] = svd(rate_lisan) ;
+    u2usim = SvdU2uSim(u1,25) ;    
+    scale_factor = 0.5;
+    sim_count=20 ;
+    user_real_rate = user_update_rate(rate,u2usim,scale_factor,sim_count) ;
+    % avguserscore = avgUserScore(rate) ;
+%     buy_number = buyNumber(training_data,user_id,3);
+%     alpha = 0 ;
+    [boolBuy new_brand_id new_rate] = CalBoolBuy(data, brand_id, user_id, rate) ;
+    [new_rate_lisan rate_temp] = DiscretRate(new_rate) ;
+    [u s v1] = svd(new_rate_lisan) ;
+    b2bsim = SvdB2bSim(v1,50) ;
+    brand_real_rate = brand_update_rate(new_rate,b2bsim,scale_factor,sim_count) ;
+    brand_real_rate = KuoZhan(new_brand_id,brand_id, brand_real_rate) ;
+    real_rate = 0.5*brand_real_rate + 1*user_real_rate ;
+    [f1, hb, pb, bb, p, r, guess_result] = week4(real_rate, user_id,brand_id, buy_number, user_buy) ;
+

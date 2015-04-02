@@ -1,0 +1,12 @@
+E:\我的文件\学习文件\WP8\程序\第二章\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+E:\我的文件\学习文件\WP8\程序\第二章\SocketServer\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+E:\我的文件\学习文件\WP8\程序\第二章\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+E:\我的文件\学习文件\WP8\程序\第二章\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+E:\我的文件\学习文件\WP8\程序\第二章\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+E:\我的文件\学习文件\WP8\程序\第二章\SocketServer\SocketServer\obj\Debug\SocketServer.pdb
+E:\我的文件\学习文件\WP8\程序\微软创新杯\服务器端\SocketServer\bin\Debug\SocketServer.exe.config
+E:\我的文件\学习文件\WP8\程序\微软创新杯\服务器端\SocketServer\obj\Debug\SocketServer.exe
+E:\我的文件\学习文件\WP8\程序\微软创新杯\服务器端\SocketServer\obj\Debug\SocketServer.pdb
+E:\我的文件\学习文件\WP8\程序\微软创新杯\服务器端\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+E:\我的文件\学习文件\WP8\程序\微软创新杯\服务器端\SocketServer\bin\Debug\SocketServer.exe
+E:\我的文件\学习文件\WP8\程序\微软创新杯\服务器端\SocketServer\bin\Debug\SocketServer.pdb

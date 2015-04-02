@@ -1,0 +1,66 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneSever.CreateEvent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"   
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="False" BackgroundColor="Transparent" Opacity="0" ForegroundColor="Black">
+            <shell:ApplicationBarIconButton IconUri="icon/Video.png" Text="号召活动" Click="btnCreateEvent_Click"/>
+            <shell:ApplicationBarIconButton IconUri="icon/Disk-upload.png" Text="设置地点" Click="btnChoosePosition_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    <!--这个界面是在panoramaPage页面点击“发起活动”页面弹出的-->
+    <Grid x:Name="Login">
+        <Image Source="back_picture.jpg" Stretch="Fill" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4.5*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="发起活动" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="70" Margin="20"/>
+            <Grid Grid.Row="1" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="180"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1.4*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="名称" Grid.Column="0" Grid.Row="0" FontSize="30" Foreground="Black" Margin="20,5,0,0"/>
+                <TextBox Name="tbEventName" Grid.ColumnSpan="2" Grid.Row="1" Background="LightGray" Margin="5,-15,0,0" BorderThickness="5"/>
+                <Grid Grid.Row="2" Grid.ColumnSpan="2" Background="LightGray"/>
+                <TextBlock Text="地点介绍" Grid.Column="0" Grid.Row="3" FontSize="30" Foreground="Black" Margin="20,5,0,0" />
+                <TextBox Name="tbPositionIntroduction" Grid.ColumnSpan="2" Grid.Row="4" Background="LightGray" Margin="5,-15,0,0" BorderThickness="5"/>
+                <Grid Grid.Row="5" Grid.ColumnSpan="2" Background="LightGray"/>
+                <toolkit:DatePicker x:Name="datePicker" Header="日期" Foreground="Black" Grid.Row="6" Grid.ColumnSpan="2" Background="LightGray" Margin="10,-10,10,0"/>
+                <Grid Grid.Row="7" Grid.ColumnSpan="2" Background="LightGray"/>
+                <toolkit:TimePicker x:Name="timePicker" Header="时间" Foreground="Black" Grid.Row="8" Grid.ColumnSpan="2" Background="LightGray" Margin="10,-10,10,0"/>
+                <Grid Grid.Row="9" Grid.ColumnSpan="2" Background="LightGray"/>
+            </Grid>
+        </Grid>
+        <Grid Name="gridBackground" Height="800" Width="480" Background="Black" Opacity="0.4"/>
+        <ProgressBar Height="56" HorizontalAlignment="Center" Name="progressBar" VerticalAlignment="Center" Width="462" IsIndeterminate="True" Margin=" 0,0,0,0"/>
+        <TextBlock Name="tbState" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,40,0,0" FontSize="25"/>
+    </Grid>
+</phone:PhoneApplicationPage>
