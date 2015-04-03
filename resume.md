@@ -14,7 +14,7 @@
 
 * 大二上学期参加微软创新杯完成一款关于跑步的社交软件(`c#&wp开发`)——[一起锻炼吧](https://github.com/persistforever/persistforever.github.io/tree/master/tiny_item/ImagineCup)，之后写了一段时间的`wp开发`，有一些小作品。（其实这段时间不知道学什么，幸亏之后找到了正确的方向。）
 
-* 大二下学期开始接触**机器学习**并深入研究，刚开始通过学习Ng斯坦福公开课中经典算法，并用`matlab`实现了机器学习实战一书上的大部分[经典算法](https://github.com/persistforever/persistforever.github.io/tree/master/tiny_item/ml_in_action_for_matlab)。之后开始补充线代、矩阵和概率统计方面数学基础（**数学太重要!**），并参加淘宝大数据比赛进行学习**推荐系统**方面的算法和实战，不仅对协同过滤、SVD、关联分析等[推荐算法](https://github.com/persistforever/persistforever.github.io/tree/master/tiny_item/recommendation_system)深入理解并通过实际数据在`matlab`上进行实验。<br />
+* 大二下学期开始接触**机器学习**并深入研究，刚开始通过学习Ng斯坦福公开课中经典算法，并用`matlab`实现了机器学习实战一书上的大部分[经典算法](https://github.com/persistforever/Machine-Learning/tree/master/machine_learning_for_matlab)。之后开始补充线代、矩阵和概率统计方面数学基础（**数学太重要!**），并参加淘宝大数据比赛进行学习**推荐系统**方面的算法和实战，不仅对协同过滤、SVD、关联分析等[推荐算法](https://github.com/persistforever/persistforever.github.io/tree/master/tiny_item/recommendation_system)深入理解并通过实际数据在`matlab`上进行实验。<br />
 
 * 大三继续深入学习机器学习算法的理论，加强各个算法的推导过程和相互联系，对算法理论进行系统得整理并写[博客](http://blog.csdn.net/sinat_26376671)。
   1. 进行一个**基于wifi进行动作识别**的项目，该项目通过csi信号收集动作信号，使用最近邻算法提取动作的特征模式，使用特征选择算法进行特征学习，并使用支持向量机和LDA进行分类器训练，最终使用交叉检验进行测试。
@@ -41,7 +41,7 @@ WP开发：简单WP项目开发。<br/>
 
 * 基于WiFi信号的动作识别：基于Linux10操作系统，通过与路由器之间建立连接发送与接收**CSI信号**。在实验中被观测者做蹲下、跳跃、拾取等动作，通过捕获的CSI信号的变化曲线，使用`MATLAB`编码，经过**滤波**、**异常点检测**、**异常模式提取**、**特征计算**、**构建分类器**与**交叉检验**等步骤，对不同的动作进行分类。我在项目中的任务是所用到的**算法**（如异常点检测、分类器算法等）的编码。
 
-* 机器学习与多视图学习：使用`MATLAB`和`python`两种语言实现机器学习中的knn、决策树、朴素贝叶斯、logistic回归、支持向量机、CART、kmeans聚类、谱聚类、关联分析、PCA、LDA、SVD等经典算法，并在**博客**中记录学习感悟，主要参考书籍是《统计学习方法》、《机器学习实战》、《机器学习》及线代、概率相关数学书籍等。多视图学习方面实验运用到很多机器学习算法，练习之后更容易实现，并完成几篇多视图学习的**文献综述**。
+* [机器学习与多视图学习](https://github.com/persistforever/Machine-Learning)：使用`MATLAB`和`python`两种语言实现机器学习中的knn、决策树、朴素贝叶斯、logistic回归、支持向量机、CART、kmeans聚类、谱聚类、关联分析、PCA、LDA、SVD等经典算法，并在**博客**中记录学习感悟，主要参考书籍是《统计学习方法》、《机器学习实战》、《机器学习》及线代、概率相关数学书籍等。多视图学习方面实验运用到很多机器学习算法，练习之后更容易实现，并完成几篇多视图学习的**文献综述**。
 
 ---
 #### 奖项
