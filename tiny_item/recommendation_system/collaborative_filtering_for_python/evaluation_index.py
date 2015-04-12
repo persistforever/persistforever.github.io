@@ -13,25 +13,22 @@ def recall(recData, testData) :
     #         testData(dict) - dataSet for test
     # output : recall_rate - rate of recall
 
+    numHit = 0
+    numTest = 0
     if len(recData.values()[0][0]) == 1 :
-        numHit = 0
-        numTest = 0
-        for i in range(len(recData)) :
-            for item in [tmp[0] for tmp in recData[i+1]] :
-                if item in [tmp[0] for tmp in testData[i+1]] :
+        for i in recData.keys() :
+            for item in [tmp[0] for tmp in recData[i]] :
+                if item in [tmp[0] for tmp in testData[i]] :
                     numHit += 1
-            numTest += len(testData[i+1])
-        recall_rate = 1.0*numHit/numTest
+            numTest += len(testData[i])
     elif len(recData.values()[0][0]) == 2 :
-        numHit = 0
-        numTest = 0
-        for i in range(len(recData)) :
-            for item in [tmp[0] for tmp in recData[i+1]] :
-                if item in [tmp[0] for tmp in testData[i+1]] :
-                    if recData[i+1][[tmp[0] for tmp in recData[i+1]].index(item)][1] == testData[i+1][[tmp[0] for tmp in testData[i+1]].index(item)][1] :
+        for i in recData.keys() :
+            for item in [tmp[0] for tmp in recData[i]] :
+                if item in [tmp[0] for tmp in testData[i]] :
+                    if recData[i][[tmp[0] for tmp in recData[i]].index(item)][1] == testData[i][[tmp[0] for tmp in testData[i]].index(item)][1] :
                         numHit += 1
-            numTest += len(testData[i+1])
-        recall_rate = 1.0*numHit/numTest
+            numTest += len(testData[i])
+    recall_rate = 1.0*numHit/numTest
 
     return recall_rate
 # --- end of recall ---
@@ -42,25 +39,22 @@ def precision(recData, testData) :
     #         testData - dataSet for test
     # output : pre_rate - rate of precision
 
+    numHit = 0
+    numTest = 0
     if len(recData.values()[0][0]) == 1 :
-        numHit = 0
-        numTest = 0
-        for i in range(len(recData)) :
-            for item in [tmp[0] for tmp in recData[i+1]] :
-                if item in [tmp[0] for tmp in testData[i+1]] :
+        for i in recData.keys() :
+            for item in [tmp[0] for tmp in recData[i]] :
+                if item in [tmp[0] for tmp in testData[i]] :
                     numHit += 1
-            numTest += len(recData[i+1])
-        pre_rate = 1.0*numHit/numTest
+            numTest += len(recData[i])
     elif len(recData.values()[0][0]) == 2 :
-        numHit = 0
-        numTest = 0
-        for i in range(len(recData)) :
-            for item in [tmp[0] for tmp in recData[i+1]] :
-                if item in [tmp[0] for tmp in testData[i+1]] :
-                    if recData[i+1][[tmp[0] for tmp in recData[i+1]].index(item)][1] == testData[i+1][[tmp[0] for tmp in testData[i+1]].index(item)][1] :
+        for i in recData.keys() :
+            for item in [tmp[0] for tmp in recData[i]] :
+                if item in [tmp[0] for tmp in testData[i]] :
+                    if recData[i][[tmp[0] for tmp in recData[i]].index(item)][1] == testData[i][[tmp[0] for tmp in testData[i]].index(item)][1] :
                         numHit += 1
-            numTest += len(recData[i+1])
-        pre_rate = 1.0*numHit/numTest
+            numTest += len(recData[i])
+    pre_rate = 1.0*numHit/numTest
 
     return pre_rate
 # --- end of recall ---
@@ -73,11 +67,11 @@ def coverage(trainData, recData) :
 
     allItem = set()
     recItem = set()
-    for i in range(len(recData)) :
-        for item in [tmp[0] for tmp in recData[i+1]] :
+    for i in recData.keys() :
+        for item in [tmp[0] for tmp in recData[i]] :
             recItem.add(item)
-    for i in range(len(trainData)) :
-        for item in [tmp[0] for tmp in trainData[i+1]] :
+    for i in trainData.keys() :
+        for item in [tmp[0] for tmp in trainData[i]] :
             allItem.add(item)
     coverage = 1.0*len(recItem)/len(allItem)
 
@@ -91,14 +85,14 @@ def popularity(trainData, recData) :
     # output : popularity - rate of popularity
 
     train_pop = dict()
-    for i in range(len(trainData)) :
-        for item in [tmp[0] for tmp in trainData[i+1]] :
+    for i in trainData.keys() :
+        for item in [tmp[0] for tmp in trainData[i]] :
             if item not in train_pop.keys() :
                 train_pop[item] = 0
             train_pop[item] += 1
     rec_pop = dict()
-    for i in range(len(recData)) :
-        for item in [tmp[0] for tmp in recData[i+1]] :
+    for i in recData.keys() :
+        for item in [tmp[0] for tmp in recData[i]] :
             if item in train_pop.keys() :
                 rec_pop[item] = train_pop[item]
             else :

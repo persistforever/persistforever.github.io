@@ -2,7 +2,8 @@
 """
 import data use different train data and test data
 """
-
+
+
 import string as st
 import numpy as np
 import evaluation_index as ei
@@ -124,10 +125,10 @@ def plot_data(performance, K) :
     # plot3 = cx.plot(K, [tmp[2] for tmp in performance], 'bo-')
     # dx = fig.add_subplot(111)
     # plot4 = dx.plot(K, [tmp[3] for tmp in performance], 'yo-')
-    plt.title('collaborative filtering user users', fontsize=16)
+    plt.title('collaborative filtering under users', fontsize=16)
     plt.xlabel('number of nearest neighbour')
     plt.ylabel('performance')
-    plt.legend([plot1, plot2], ('recall', 'precision'), 'best', numpoints=1)
+    # plt.legend([plot1, plot2], ('recall', 'precision'), 'best', numpoints=1)
     plt.show()
     
     return 
@@ -139,13 +140,13 @@ numItem = len(set([tmp[1] for tmp in trainData]))
 UL = user_list(trainData)
 user_sim = us.euclidean_similarity(trainData, numUser)
 print 'user_sim calculation finished!'
-K = [5, 10, 20, 40, 80]
+K = [10, 20, 40, 80, 160]
 performance = []
 for i in K :
     print 'K = ', i
     user_neigh = kNN_user(user_sim, i)
     print 'user_neigh calculation finished!'
-    recData = rm.outline_recommend(UL, user_neigh, numUser, numItem, testData)
+    recData = rm.all_recommend(UL, user_neigh, numUser, numItem, testData)
     print 'recommendation finished!'
     performance.append(test_performance(trainData, recData, testData))
 plot_data(performance, K)

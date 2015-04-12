@@ -28,7 +28,7 @@ def user_rating_item(UL, user_neigh, user, item) :
     else :
         rate = 1.0*sum_rate/dist
 
-    return rate
+    return round(rate)
 # --- end of user_rating_item ---
 
 def outline_recommend(UL, user_neigh, numUser, numItem, testData) :
@@ -43,7 +43,27 @@ def outline_recommend(UL, user_neigh, numUser, numItem, testData) :
     for i in range(len(testData)) :
         user = testData[i][0]
         item = testData[i][1]
-        recData.append([user, item, round(user_rating_item(UL, user_neigh, user, item))])
+        recData.append([user, item, user_rating_item(UL, user_neigh, user, item)])
         
     return recData
 # --- end of outline_recommend ---
+
+def all_recommend(UL, user_neigh, numUser, numItem, testData) :
+#   recommand all rated items
+#   input : UL - user_item list
+#           user_neigh - (user*k) matrix as each user for k neighbours
+#           numUser - number of user
+#           numItem - number of item
+#   output : recData - dataSet that recommendation provides
+
+    recData = []
+    for i in range(len(testData)) :
+        user = testData[i][0]
+        item = testData[i][1]
+        rate = user_rating_item(UL, user_neigh, user, item)
+        if rate != 0 :
+            recData.append([user, item, rate])
+        
+    return recData
+# --- end of all_recommend --- 
+
