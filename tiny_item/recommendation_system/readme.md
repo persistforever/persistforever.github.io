@@ -11,4 +11,4 @@
 
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20on%20coverage.png?raw=true">
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20on%20coverage.png?raw=true">
-<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/collaborative_filtering_for_python/result/eurclidean%20vs%20pearson%20for%20users-CF%20on%20popularity.png?raw=true">
+<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20on%20popularity.png?raw=true">
