@@ -23,4 +23,4 @@
 
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20cmp%20CF-IUF%20on%20precision&recall.png?raw=true">
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BUCF_for_python/result/basic-item-CF%20on%20coverage.png?raw=true">
-<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BUCF_for_python/result/basic-item-CF%20on%20popularity.png?raw=true">
+<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20cmp%20CF-IUF%20on%20popularity.png?raw=true">
