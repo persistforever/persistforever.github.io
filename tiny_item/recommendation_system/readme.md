@@ -9,7 +9,7 @@
 
 * **基于用户协同过滤(IIF)**：经过**物品活跃度**的惩罚，以user-CF相同的方法进行测试，并且与基本的user-CF的性能测试进行比较。
 
-<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BUCF_for_python/result/basic-item-CF%20on%20precision&recall.png?raw=true">
+<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BUCF_for_python/result/CF%20cmp%20CF-IIF%20on%20precision&recall.png?raw=true">
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BUCF_for_python/result/basic-item-CF%20on%20coverage.png?raw=true">
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BUCF_for_python/result/basic-item-CF%20on%20popularity.png?raw=true">
 
