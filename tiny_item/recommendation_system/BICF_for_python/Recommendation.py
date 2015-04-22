@@ -54,5 +54,3 @@ class Recommendation :
     # --- end of all_recommend ---
     
 # --- end of Recommendation class ---
-
-

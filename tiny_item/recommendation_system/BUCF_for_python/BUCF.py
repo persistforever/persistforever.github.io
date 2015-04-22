@@ -46,10 +46,10 @@ class BUCF() :
             self.IL[ts[1]].append(ts[0])
     # --- end of item_list ---
 
-    def cal_similarity(self) :
+    def cal_similarity(self, sim_type) :
     #   calculate similarity between users user_sim {user:{user:sim, user:sim, ...}, ...}
         print "create user_sim ..."
-        usim = usm.UserSimilarity(1)
+        usim = usm.UserSimilarity(sim_type)
         self.user_sim = usim.cal_sim(self.UL, self.IL)
     # --- end of cal_similarity ---
 
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     bucf = BUCF('data/ua.base', 'data/ua.test')
     bucf.user_list()
     bucf.item_list()
-    bucf.cal_similarity()
+    bucf.cal_similarity(2)
     perform = []
     K = [5, 10, 20, 40, 80, 160]
     for i in K :
@@ -103,12 +103,13 @@ if __name__ == '__main__':
         bucf.recommend()
         perform.append(bucf.test_performance())
     imp = im.ImportData('', '')
-    imp.write_data(perform, 'result/perform.txt')
+    imp.write_data(perform, 'result/perform_IIL.txt')
     """
     K = [5, 10, 20, 40, 80, 160]
     imp = im.ImportData('', '')
     perform = imp.import_data('result/perform.txt')
     plt = pl.Ploting(perform, K)
     plt.ploting()
+    
 """main end"""
 

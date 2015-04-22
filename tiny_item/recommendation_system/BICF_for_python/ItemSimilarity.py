@@ -22,9 +22,11 @@ class ItemSimilarity :
     #           IL - item list
         if self.sim_type == 1 :
             return self.setting(UL, IL)
-        elif self.sim_type == 2 :
-            return self.euclidean(trainData, numUser)
+        if self.sim_type == 2 :
+            return self.setting_IUF(UL, IL)
         elif self.sim_type == 3 :
+            return self.euclidean(trainData, numUser)
+        elif self.sim_type == 4 :
             return self.pearson(trainData, numUser)
     # --- end of cal_sim ---
 
@@ -44,6 +46,30 @@ class ItemSimilarity :
                 item_sum[i] += 1
                 for j in UL[user] :
                     item_sim[i][j] += 1
+        for i in IL.keys() :
+            for j in IL.keys() :
+                item_sim[i][j] = 1.0*item_sim[i][j]/(mt.sqrt(item_sum[i]*item_sum[j]))
+        return item_sim
+    # --- end of setting ---
+
+    def setting_IUF(self, UL, IL) :
+    #   calculate setting(log(1+N(u))) similarity between items
+    #   input : UL - user list
+    #           IL - item list
+        item_sim = dict()
+        item_sum = dict()
+        for i in IL.keys() :
+            item_sim[i] = dict()
+            item_sum[i] = 0
+            for j in IL.keys() :
+                item_sim[i][j] = 0
+        N = dict()
+        for user in UL.keys() :
+            N[user] = len(UL[user])
+            for i in UL[user] :
+                item_sum[i] += 1
+                for j in UL[user] :
+                    item_sim[i][j] += 1.0/(mt.log(1+N[user]))
         for i in IL.keys() :
             for j in IL.keys() :
                 item_sim[i][j] = 1.0*item_sim[i][j]/(mt.sqrt(item_sum[i]*item_sum[j]))

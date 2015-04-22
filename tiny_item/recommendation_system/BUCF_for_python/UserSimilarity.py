@@ -23,8 +23,10 @@ class UserSimilarity :
         if self.sim_type == 1 :
             return self.setting(UL, IL)
         elif self.sim_type == 2 :
-            return self.euclidean(trainData, numItem)
+            return self.setting_IIF(UL, IL)
         elif self.sim_type == 3 :
+            return self.euclidean(trainData, numItem)
+        elif self.sim_type == 4 :
             return self.pearson(trainData, numItem)
     # --- end of cal_sim ---
 
@@ -44,6 +46,30 @@ class UserSimilarity :
                 user_sum[i] += 1
                 for j in IL[item] :
                     user_sim[i][j] += 1
+        for i in UL.keys() :
+            for j in UL.keys() :
+                user_sim[i][j] = 1.0*user_sim[i][j]/(mt.sqrt(user_sum[i]*user_sum[j]))
+        return user_sim
+    # --- end of setting ---
+    
+    def setting_IIF(self, UL, IL) :
+    #   calculate setting(log(1+N(i))) similarity between users
+    #   input : UL - user list
+    #           IL - item list
+        user_sim = dict()
+        user_sum = dict()
+        for i in UL.keys() :
+            user_sim[i] = dict()
+            user_sum[i] = 0
+            for j in UL.keys() :
+                user_sim[i][j] = 0
+        N = dict()
+        for item in IL.keys() :
+            N[item] = len(IL[item])
+            for i in IL[item] :
+                user_sum[i] += 1
+                for j in IL[item] :
+                    user_sim[i][j] += 1.0/mt.log(1+N[item])
         for i in UL.keys() :
             for j in UL.keys() :
                 user_sim[i][j] = 1.0*user_sim[i][j]/(mt.sqrt(user_sum[i]*user_sum[j]))

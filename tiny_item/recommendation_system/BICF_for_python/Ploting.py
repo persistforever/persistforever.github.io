@@ -27,8 +27,8 @@ class Ploting() :
 
     def ploting(self) :
     #   ploting graphs
-        # self.plot_rc_and_prec()
-        # self.plot_coverage()
+        self.plot_rc_and_prec()
+        self.plot_coverage()
         self.plot_popularity()
     # --- end of ploting ---
 
@@ -36,13 +36,13 @@ class Ploting() :
     #   plot recall and precision in dataSet
         fig = plt.figure()
         ax = fig.add_subplot(111)
-        p1 = ax.plot(self.K, self.rc, 'ro--')
+        p1 = ax.plot(self.K, self.rc[0:6], 'bo--')
         bx = fig.add_subplot(111)
-        p3 = bx.plot(self.K, self.prec, 'gs--')
-        plt.title('basic-item-CF on precision&recall', fontsize=16)
+        p2 = bx.plot(self.K, self.rc[6:13], 'rs--')
+        plt.title('basic-item-CF cmp item-CF-IUF on precision&recall', fontsize=16)
         plt.xlabel('number of nearest neighbour')
         plt.ylabel('performance')
-        plt.legend((p1[0], p3[0]), ('precision', 'recall'), 'best', numpoints=1)
+        plt.legend((p1[0], p2[0]), ('CF', 'CF-IUF'), 'best', numpoints=1)
         plt.show()
     # --- end of plot_data ---
     
@@ -50,11 +50,13 @@ class Ploting() :
     #   plot coverage in dataSet
         fig = plt.figure()
         ax = fig.add_subplot(111)
-        p1 = ax.plot(self.K, self.cv, 'bo--')
-        plt.title('basic-item-CF on coverage', fontsize=16)
+        p1 = ax.plot(self.K, self.cv[0:6], 'go--')
+        bx = fig.add_subplot(111)
+        p2 = bx.plot(self.K, self.cv[6:13], 'ms--')
+        plt.title('basic-item-CF cmp item-CF-IUF on coverage', fontsize=16)
         plt.xlabel('number of nearest neighbour')
         plt.ylabel('performance')
-        plt.legend((p1[0], p1[0]), ('coverage', 'coverage'), 'best', numpoints=1)
+        plt.legend((p1[0], p2[0]), ('CF', 'CF-IUF'), 'best', numpoints=1)
         plt.show()
     # --- end of plot_data ---
     
@@ -62,11 +64,13 @@ class Ploting() :
     #   plot popularity in dataSet
         fig = plt.figure()
         ax = fig.add_subplot(111)
-        p1 = ax.plot(self.K, self.pop, 'mo--')
-        plt.title('basic-item-CF on popularity', fontsize=16)
+        p1 = ax.plot(self.K, self.pop[0:6], 'yo--')
+        bx = fig.add_subplot(111)
+        p2 = bx.plot(self.K, self.pop[6:13], 'cs--')
+        plt.title('basic-item-CF cmp item-CF-IUF on popularity', fontsize=16)
         plt.xlabel('number of nearest neighbour')
         plt.ylabel('performance')
-        plt.legend((p1[0], p1[0]), ('popularity', 'popularity'), 'best', numpoints=1)
+        plt.legend((p1[0], p2[0]), ('CF', 'CF-IUF'), 'best', numpoints=1)
         plt.show()
     # --- end of plot_data ---
     

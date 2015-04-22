@@ -46,10 +46,10 @@ class BICF() :
             self.IL[ts[1]].append(ts[0])
     # --- end of item_list ---
 
-    def cal_similarity(self) :
+    def cal_similarity(self, sim_type) :
     #   calculate similarity between items item_sim {item:{item:sim, item:sim, ...}, ...}
         print "create item_sim ..."
-        isim = ism.ItemSimilarity(1)
+        isim = ism.ItemSimilarity(sim_type)
         self.item_sim = isim.cal_sim(self.UL, self.IL)
     # --- end of cal_similarity ---
 
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     bicf = BICF('data/ua.base', 'data/ua.test')
     bicf.user_list()
     bicf.item_list()
-    bicf.cal_similarity()
+    bicf.cal_similarity(2)
     perform = []
     K = [5, 10, 20, 40, 80, 160]
     for i in K :
@@ -102,12 +102,14 @@ if __name__ == '__main__':
         bicf.kNN_item(i)
         bicf.recommend()
         perform.append(bicf.test_performance())
+    imp = im.ImportData('', '')
+    imp.write_data(perform, 'result/perform_IUF.txt')
     """
     K = [5, 10, 20, 40, 80, 160]
     imp = im.ImportData('', '')
     perform = imp.import_data('result/perform.txt')
-    # imp.write_data(perform, 'result/perform.txt')
     plt = pl.Ploting(perform, K)
     plt.ploting()
+    
 """main end"""
 
