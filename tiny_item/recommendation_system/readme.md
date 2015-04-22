@@ -22,5 +22,5 @@
 * **基于物品协同过滤(IUF)**：经过**用户活跃度**的惩罚，以item-CF相同的方法进行测试，并且与基本的item-CF的性能测试进行比较。
 
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20cmp%20CF-IUF%20on%20precision&recall.png?raw=true">
-<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BUCF_for_python/result/basic-item-CF%20on%20coverage.png?raw=true">
+<img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20cmp%20CF-IUF%20on%20coverage.png?raw=true">
 <img width="33%" height="33%" src="https://github.com/persistforever/persistforever.github.io/blob/master/tiny_item/recommendation_system/BICF_for_python/result/basic-item-CF%20cmp%20CF-IUF%20on%20popularity.png?raw=true">
