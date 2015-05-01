@@ -162,7 +162,7 @@ for master(English)
 ##  Rongyu Cao
 
 ##  Basic Information
-Gender: Male  </br>
-Telephone:  18840867066 </br>
-Email:  caocao7066@outlook.com
-University: Dalian Technology of University·Software Engineering Department·Digital Media Professional
+Gender: Male  <br/>
+Telephone:  18840867066 <br/>
+Email:  caocao7066@outlook.com  <br/>
+University: Dalian Technology of University·Software Engineering Department·Digital Media Professional<br/>
