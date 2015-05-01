@@ -156,7 +156,7 @@ WP开发：简单WP项目开发。<br/>
 
 ---
 
-for master(English)
+# for master(English)
 
 ---
 
