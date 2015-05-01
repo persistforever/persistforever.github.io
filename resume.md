@@ -157,9 +157,12 @@ WP开发：简单WP项目开发。<br/>
 ---
 
 for master(English)
+
 ---
 
 ##  Rongyu Cao
+
+---
 
 ##  Basic Information
 Gender: Male  <br/>
