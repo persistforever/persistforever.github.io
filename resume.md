@@ -170,6 +170,9 @@ Telephone:  18840867066 <br/>
 Email:  caocao7066@outlook.com  <br/>
 University: Dalian Technology of University·Software Engineering Department·Digital Media Professional<br/>
 
+## About me
+The key skill of my university experience is Machine Learning, I touch it when sophmore. At first, I only remember the process of the algorithm because I cannot understand the derivation. Then, I study math in this field such as matrix theory, probability statistics and a little convex optimization theory. When junior I can use my mathematical knowledge to deduce the algorithms. For a machine learning algorithm, I understand the idea borning, model eastablishing, solving and proofing, characteristic analysising, coding and experimenting. But it’s not enough. Machine Learning is not only set of algorithms but also the framework to solve problem. Now I concnetrate on the essence of problem, the difference and contact between algorithms and in deep the complexity and generalization ability. To put into practice, I study recommendation system and participate in “Tamll big data competition”, use statistical learning to complete “Wi-Fi movement recognization project”. To put into scientific researching, I study Multi-view Learning in SSDUT Wisdom Laboratory. I want to practise in company when senior because I want to contact big data and machine learning in contact with reality. Then study on machine laerning related field during the postgraduate.
+
 ## Award
 * Mathematical Modeling Contest third provincial prize
 * Dalian Engineering Mathematics Contest first municipal prize
