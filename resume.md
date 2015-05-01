@@ -169,3 +169,6 @@ Gender: Male  <br/>
 Telephone:  18840867066 <br/>
 Email:  caocao7066@outlook.com  <br/>
 University: Dalian Technology of University·Software Engineering Department·Digital Media Professional<br/>
+
+## About me
+The key skill of my university experience is **Machine Learning**, I touch it when sophomore. At first, I only remember the process of the algorithm because I cannot understand the derivation. Then, I study math in this field such as matrix theory, probability statistics and a little convex optimization theory. When junior I can use my mathematical knowledge to deduct the algorithms. For a machine learning algorithm, I understand the idea borning, model establishing, solving and proofing, characteristic analysising, coding and experimenting. But it's not enough. Machine Learning is not only set of algorithm but also the framework to solve problem.
