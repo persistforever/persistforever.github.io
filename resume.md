@@ -183,5 +183,4 @@ The key skill of my university experience is **Machine Learning**, I touch it wh
 * Jinggangshan social practice first municipal prize
 
 ## Project Experience
-* Heuristic Algorithm : This project is about a improved PSO heuristic algorithm. we study scheduling problem on parallel machines, where each job is unrelated with others and can be processed by any machine, with the goal of minimizing makespan. Once the processing of a job starts, it must be completed without interruption. Instead of classical particle swarm optimization (PSO) algorithm, we propose an improved algorithm with Levy Flight (LPSO). Through the experiments we find that the shortcoming of PSO, i.e., falling into prematurity, has been improved effectively, and the computational results show that the proposed LPSO algorithm is more competitive than the classical
-one. 
+* Heuristic Algorithm : We study scheduling problem on parallel machines, where each job is unrelated with others and can be processed by any machine, with the goal of minimizing makespan. We propose an improved algorithm with Levy Flight (LPSO). Levy Flight can avoid the shortcoming of PSO, i.e., falling into prematurity, has been improved effectively, by randomly. The computational results show that the proposed LPSO algorithm is more competitive than the classical one.
