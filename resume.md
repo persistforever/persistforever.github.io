@@ -181,3 +181,6 @@ The key skill of my university experience is **Machine Learning**, I touch it wh
 * The first Learning Scholarship in Dalian University of Technology
 * Sumitomo Chemical Scholarship
 * Jinggangshan social practice first municipal prize
+
+## Project Experience
+* Heuristic Algorithm: 
