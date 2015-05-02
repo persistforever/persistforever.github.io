@@ -184,3 +184,5 @@ The key skill of my university experience is **Machine Learning**, I touch it wh
 
 ## Project Experience
 * Heuristic Algorithm : We study scheduling problem on parallel machines, where each job is unrelated with others and can be processed by any machine, with the goal of minimizing makespan. We propose an improved algorithm with Levy Flight (LPSO). Levy Flight can avoid the shortcoming of PSO, i.e., falling into prematurity, has been improved effectively, by randomly. The computational results show that the proposed LPSO algorithm is more competitive than the classical one.
+* Algorithm visualization : We demonstrate the classical algorithms from data structure in form of visualization under Web. The framework contain 3 layers. In graph layer(bottom layer), we use canvas module to construct interface of drawing. In algorithm layer(top layer), design algorithms algorithm process and drawing strategy, then store the drawing commands as string. In control layer(middle layer), accept drawing commands from top layer and call the drawing interface in bottom layer. The animations rely on refreshing canvas.
+
